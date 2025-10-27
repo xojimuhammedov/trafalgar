@@ -1,0 +1,127 @@
+:root {
+--blue: #00BAFC;
+--black: #000000;
+--white: #fff;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    background-color: var(--white)
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-top: 48px; 
+}
+.navbar-div{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    align-items: center;
+}
+.nav-a{
+    color: #7D7987;
+}
+.nav-a-home{
+    color: #000000;
+}
+.section-1{
+    display: flex;
+
+}
+.section-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.section-left-title{
+    display: flex;
+    flex-direction: column;
+    margin-top: 186px;
+    
+    
+}
+.section-left-title{
+    width: 426px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+}
+.section-left-text{
+    width: 455px;
+    color: #7D7987;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 2;
+}
+.section-left-button{
+    width: 200px;
+    height: 60px;
+    margin-top: 45px;   
+}
+.section-1-img{
+    margin-top: 84px;
+}
+
+.services__title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 58px;
+    margin: 200px 0 60px 0;
+}
+.services__subtitle{
+    width: 952px;
+    text-align: center;
+    margin: 0 auto;
+    color: #7D7987;
+    margin-bottom: 80px;
+}
+
+.service__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.servicess{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 34px;
+    
+
+}
+.service__card{
+    width: 350px;
+    height: 350px;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+    background-color: #fff;
+
+}
+.service__name{
+    line-height: 56px;
+    font-weight: 700px;
+    font-size: 24px;
+    color: #000000;
+    margin-top: 20px;
+}
+.service__desc{
+    width: 266px;
+    color: #7D7987;
+}
